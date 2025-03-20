@@ -1,4 +1,28 @@
 body {
-    background-image: url("https://picsum.photos/id/82/1000/1000")
-    background-repeat:
+    background-image: url("https://picsum.photos/id/82/1000/1000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+#header, .nav>a,#hero,#cta{
+    color:black;
+}
+
+#header {
+    background-color:rgb(119, 46, 85);
+    height:60px;
+}
+
+#hero{
+    font-size:22px;
+}
+
+#hero>h1{
+    font-size:80px;
+}
+
+#cta{
+    background-color:rgb(172, 83, 157);
+    text-decoration:dotted;
 }
